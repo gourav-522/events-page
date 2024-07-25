@@ -237,6 +237,10 @@
     color: white;
 }
 
+.nav-link:hover {
+    color: white;
+}
+
 .nav-btn {
     width: 118px;
     height: 46px;
