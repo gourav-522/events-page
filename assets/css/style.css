@@ -287,6 +287,10 @@
     cursor: pointer;
 }
 
+.show-box {
+    text-decoration: none;
+}
+
 @media (max-width:576px) {
 
     .column {
