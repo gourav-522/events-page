@@ -1,13 +1,16 @@
 @import url(/assets/css/root.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-.image{
+
+.image {
     background-image: url(/assets/images/Group\ 103.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.font{
+
+.font {
     color: white;
 }
+
 .btn {
     width: 118px;
     height: 46px;
@@ -28,6 +31,7 @@
     background: blue;
     box-shadow: 0px 1px 0px 1px black;
 }
+
 .Events {
     color: #2c49fe;
     font-family: "Poppins", sans-serif;
@@ -38,28 +42,32 @@
 .free {
     color: #01c8ff;
 }
-.homeevent{
+
+.homeevent {
     font-family: Poppins;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        text-align: left;
-        color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
 }
-.events{
+
+.events {
     font-family: Poppins;
-        font-size: 64px;
-        font-weight: 600;
-        line-height: 96px;
-        text-align: left;
-        color: white;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 96px;
+    text-align: left;
+    color: white;
 
 }
+
 .home {
-  color: white;
+    color: white;
     margin-top: 50px;
     margin-top: 214px;
 }
+
 .footer-sec {
     background: #000000;
     margin-top: 104px;
@@ -77,6 +85,7 @@
     color: white;
     max-width: 346px;
 }
+
 .all {
     margin-top: 20px;
     border-radius: 20px;
@@ -86,10 +95,12 @@
     font-weight: 600;
     font-size: 24px;
 }
-.gap10{
+
+.gap10 {
     gap: 10px;
 }
-.mt-20{
+
+.mt-20 {
     margin-top: 36px;
 }
 
@@ -109,17 +120,24 @@
 .borderb {
     border: 1px solid #cccccc;
 }
-.choose{
+
+.choose {
     font-family: Poppins;
-font-size: 48px;
-font-weight: 700;
-line-height: 72px;
-text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
 
 }
-.colour{
+
+.card-info {
+    color: #666666;
+}
+
+.colour {
     color: white;
 }
+
 .all {
     margin-top: 20px;
     border-radius: 20px;
@@ -129,13 +147,14 @@ text-align: center;
     font-weight: 600;
     font-size: 24px;
 }
-.lorem{
+
+.card-heading {
     font-family: Poppins;
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 36px;
-        text-align: left;
-        margin-top: 21px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 21px;
 }
 
 .bg_shadow {
@@ -165,13 +184,15 @@ text-align: center;
     transition: all 1s linear;
 
 }
-.images{
+
+.images {
     transition: all .6s linear;
 }
+
 .images:hover {
     transform: scale(1.03);
     border-radius: 20px;
-    
+
 }
 
 .line-1 {
@@ -193,6 +214,7 @@ text-align: center;
     opacity: 0px;
     background: #2c49fe;
 }
+
 .Events {
 
     font-size: 36px;
@@ -247,6 +269,24 @@ text-align: center;
 .mt-68 {
     margin-top: 68px;
 }
+
+.fotter-head {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+}
+
+.fotter-text {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    cursor: pointer;
+}
+
 @media (max-width:576px) {
 
     .column {
@@ -273,7 +313,8 @@ text-align: center;
     .logo1 {
         width: 70px;
     }
-    .events{
+
+    .events {
         font-size: 36px;
     }
 }
@@ -295,7 +336,7 @@ text-align: center;
 
     }
 
-    label[for="nav-icon"] {
+    label[for="nav-card-info"] {
         height: 30px;
         width: 25px;
         display: flex;
@@ -306,7 +347,7 @@ text-align: center;
         right: 2%;
     }
 
-    label[for="nav-icon"]>span {
+    label[for="nav-card-info"]>span {
         width: 100%;
         height: 4px;
         background-color: white;
